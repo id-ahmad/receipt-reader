@@ -43,7 +43,8 @@ Read those if you haven't recently.
 
 ## Commands
 
-<Fill in once implementation starts. Examples:>
-- `npm run dev` — start local dev server
-- `npm test` — run tests
-- `npm run deploy` — deploy to production
+- `uv sync` — install dependencies into `.venv`
+- `uv run ruff check` / `uv run ruff format --check` — lint / formatting
+- `uv run mypy` — type check (strict)
+- `uv run pytest` — tests
+- CI (`.github/workflows/ci.yml`) runs all four on every push to `main` and every PR.

@@ -1,6 +1,20 @@
-node_modules/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
 dist/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Secrets (API keys live in .env, never in git)
 .env
 .env.local
+
+# Downloaded data and run outputs (reproduced by scripts, not committed)
+data/
+runs/
+
+# Misc
 *.log
 .DS_Store

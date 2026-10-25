@@ -4,12 +4,14 @@ Unresolved questions that don't block scaffolding but need answers before / duri
 
 ## Product
 
-- <question>
+- Which OCR engine for the baseline: Tesseract, PaddleOCR or docTR?
+- Which open-weight vision model: Qwen3.5-4B, Ministral 3 8B, or an OCR model feeding a text model?
 
 ## Technical
 
-- <question>
+- Tracing: confirm Langfuse (the brief's proposal) at the start of the model work.
+- Scoring details left open by ADR 0001: name comparison, items with no count, matching predicted items to true items.
 
 ## Legal / policy
 
-- <question>
+- Anthropic console spend limit (D5) set before the first paid API run?
