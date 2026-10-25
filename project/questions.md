@@ -10,7 +10,7 @@ Unresolved questions that don't block scaffolding but need answers before / duri
 ## Technical
 
 - Tracing: confirm Langfuse (the brief's proposal) at the start of the model work.
-- Scoring details left open by ADR 0001: name comparison, items with no count, matching predicted items to true items.
+- Scoring details left open by ADR 0001: name comparison (incl. empty names from ADR 0003), items with no count, matching predicted items to true items.
 
 ## Legal / policy
 

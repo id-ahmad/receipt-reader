@@ -1,0 +1,71 @@
+[
+  {
+    "split": "train",
+    "index": 153,
+    "path": [
+      "total",
+      "total_price"
+    ],
+    "raw": "Rp 57,0000",
+    "fixed": "Rp 57,000",
+    "reason": "Labelling typo: the photo shows Rp57,000 (cash is also 57,000)."
+  },
+  {
+    "split": "train",
+    "index": 791,
+    "path": [
+      "total",
+      "total_price"
+    ],
+    "raw": "385,0000",
+    "fixed": "385,000",
+    "reason": "Labelling typo: the photo shows 385,000 (cash is also 385,000)."
+  },
+  {
+    "split": "train",
+    "index": 421,
+    "path": [
+      "sub_total",
+      "tax_price"
+    ],
+    "raw": "10% 4,818",
+    "fixed": "4,818",
+    "reason": "The label includes the tax rate; the amount is 4,818."
+  },
+  {
+    "split": "train",
+    "index": 435,
+    "path": [
+      "sub_total",
+      "tax_price"
+    ],
+    "raw": "Pb1 10% 7,000",
+    "fixed": "7,000",
+    "reason": "The label includes the tax name and rate; the amount is 7,000."
+  },
+  {
+    "split": "train",
+    "index": 525,
+    "path": [
+      "menu",
+      "cnt"
+    ],
+    "raw": [
+      "TRIPPLE CHEESE",
+      "1"
+    ],
+    "fixed": "1",
+    "reason": "Labelling slip: the name went into the count field; the photo shows TRIPPLE CHEESE, count 1."
+  },
+  {
+    "split": "train",
+    "index": 525,
+    "path": [
+      "menu",
+      "nm"
+    ],
+    "raw": null,
+    "fixed": "TRIPPLE CHEESE",
+    "reason": "Labelling slip: the name went into the count field; the photo shows TRIPPLE CHEESE, count 1."
+  }
+]
